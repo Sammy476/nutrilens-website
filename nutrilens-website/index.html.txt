@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriLens – AI Fitness & Nutrition App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1abc9c;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 3rem;
+      text-align: center;
+      background: white;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 2rem;
+      background: #fff;
+    }
+    .feature {
+      flex: 1 1 300px;
+      margin: 1rem;
+      background: #e9f9f7;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1abc9c;
+      color: white;
+      font-size: 0.9rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background: #1abc9c;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NutriLens</h1>
+    <p>Your AI-powered fitness & food analysis app</p>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Transform Your Body in 30 Days</h1>
+    <p>Upload your photo, get a personalized AI fitness plan, and analyze your meals with just one snap.</p>
+    <a class="btn" href="#download">Join the Waitlist</a>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <h2>AI Body Scan</h2>
+      <p>Upload your photo and let NutriLens analyze your physique to generate a custom 30-day transformation plan.</p>
+    </div>
+    <div class="feature">
+      <h2>Food Snapshot Analyzer</h2>
+      <p>Take a picture of your meal and instantly get nutritional info — calories, macros, and more.</p>
+    </div>
+    <div class="feature">
+      <h2>Goal-Based Planning</h2>
+      <p>Whether you want to lose weight, gain mass, or tone up — NutriLens creates a smart plan tailored to your goals.</p>
+    </div>
+  </section>
+
+  <section class="hero" id="download">
+    <h2>Coming Soon to Android & iOS</h2>
+    <p>We’re working hard to bring NutriLens to your phone. Sign up below to be the first to know when we launch!</p>
+    <a class="btn" href="#contact">Notify Me</a>
+  </section>
+
+  <footer id="contact">
+    <p>Made with ❤️ by NutriLens Team | Contact: nutrilens@app.com</p>
+  </footer>
+</body>
+</html>
